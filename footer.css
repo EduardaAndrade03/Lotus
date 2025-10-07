@@ -1,0 +1,44 @@
+.footer{
+    color: white;
+    background-color: #555345;
+    height: 170px;
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.footer-esquerda{
+    margin: 0 0 0 40px;
+}
+
+.logofooter{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.logomarca{
+    font-size: 13px;
+}
+
+.linha{
+    background-color: white;
+    height: 100px;
+    width: 1px;
+}
+
+.footer-direita{
+    text-align: center;
+}
+
+.footer-direita a{
+    font-size: 19px;
+}
+
+.footer-direita a:hover{
+    color: #f6f0c9;
+}
