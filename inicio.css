@@ -1,0 +1,13 @@
+.fundo{
+    height: 550px;
+    margin: 50px auto 0px;
+    display: block;
+    border-radius: 100px;
+}
+
+.mensagem{
+    font-size: 100px;
+    color: #321d14;
+    text-align: center;
+    margin: 0px;
+}
