@@ -5,7 +5,7 @@
     height: 550px;
     margin: 50px auto;
     display: block;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 
 .mensagem{
@@ -40,7 +40,7 @@
     width: 300px;
     background-color: #f6f0c9;
     padding: 15px;
-    border-radius: 65px;
+    border-radius: 30px;
 }
 
 .blocos h2{
@@ -64,14 +64,14 @@
 
 
 .secao3{
-    height: 300px;
-    padding: 80px 200px 300px;
+    height: 330px;
+    padding: 50px 200px 300px;
 }
 
 .secao3 h2{
     text-align: center;
     font-size: 60px;
-    padding: 0 0 40px;
+    margin: 40px 0 55px;
 }
 
 .nações-pai{
@@ -98,15 +98,19 @@
     border-radius: 31px;
 }
 
-/* .bloco-nações{
-    flex-direction: column;
-    align-items: center;
-    width: 190px;
-    height: 230px;
-    background-color: #9e9a7e;
+.link-mapa{
+    text-align: center;
+    margin-top: 55px;
+
 }
 
-.bloco-nações img{
-    margin: 10px auto;
-    height: 80px;
-} */
+.link-mapa a{
+    font-size: 30px;
+    color: #321d14;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link-mapa a:hover{
+    text-decoration: underline;
+}

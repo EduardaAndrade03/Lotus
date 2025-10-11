@@ -23,25 +23,43 @@ li, a{
 
 .LOGOTIPO{
     color: #fff;
-    font-size: 25px;
-    font-weight: bold
+    font-size: 30px;
 }
 
+/* 
 .nav_links{
     list-style: none;
-}
+} */
 
 .nav_links li{
     list-style: none;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 5px 20px 5px;
 }
 
 .nav_links li a:hover{
     color: #f6f0c9;
 }
 
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+}
 
+.dropdown-menu a {
+    border: #67604e solid 2px;
+    background-color: #b4aa8a;
+    padding: 20px 20px;
+    display: block;
+    color: #ffffff;
+    border-radius: 6px;
+}
 
+.dropdown-menu a:hover{
+    color: #C9BF9B;
+}
 
-
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
