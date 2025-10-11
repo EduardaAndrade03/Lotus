@@ -1,0 +1,68 @@
+
+/* seção 2 */
+
+
+.secao2{
+    margin: 130px 120px 90px;
+
+}
+
+.lados{
+    display: flex;
+    text-align: justify;
+    font-size: 21px;
+    color: #321d14;
+}
+
+.lados p{
+    margin: 0 0 30px;
+}
+
+#lado-esquerdo{
+    margin: 0 30px;
+}
+
+#lado-direito{
+    margin: 0 0 0 30px;
+}
+
+#lado-direito img{
+    display: block;
+    border-radius: 30px;
+    width: 585px;
+    margin: 0 auto 30px;
+}
+
+
+
+/* seção 3 */
+
+.secao3{
+    background-color: #9e9a7e;
+    padding: 40px 130px 100px;
+}
+
+.lugares{
+    display: flex;
+}
+
+.lugares p{
+    color: #321d14;
+    font-size: 20px;
+    text-align: justify
+}
+.lugares h2{
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+.lugares img{
+    margin: 30px 0 0 ;
+    border-radius: 30px;
+    height: 350px;
+}
+
+.bloco-texto{
+    margin: auto 50px ;
+}
