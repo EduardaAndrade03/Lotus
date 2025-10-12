@@ -67,6 +67,7 @@
 }
 
 .secao3 h2{
+    color: #321d14;
     text-align: center;
     font-size: 60px;
     margin: 40px 0 55px;
@@ -78,6 +79,7 @@
 }
 
 .bloco-nações{
+    opacity: 0.9;
     width: 190px;
     background-color: #9e9a7e;
     padding: 12px 12px;
@@ -111,4 +113,17 @@
 
 .link-mapa a:hover{
     text-decoration: underline;
+}
+
+.bloco-nações:hover{
+    opacity: 1;
+    /* background-color: #bcb692; */
+}
+
+.bloco-nações:hover img{
+}
+
+.bloco-nações:hover p{
+    color: #f6f0c9;
+
 }

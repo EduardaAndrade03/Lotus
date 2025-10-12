@@ -1,0 +1,173 @@
+.secao1{
+    padding: 40px 60px 40px 30px;
+    display: flex;
+}
+
+.secao1 img{
+    margin: 0 0 0 70px;
+    height: 390px;
+}
+
+.secao1 div{
+    margin: 30px 50px;
+}
+
+.secao1 div h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #321d14;
+}
+
+.secao1 div p{
+    font-size: 23px;
+    text-align: justify;
+    color: #321d14;
+}
+
+
+
+/* seção 2 */
+
+
+.secao2{
+    background-color: #9e9a7e;
+    margin: 0;
+    padding: 20px 140px;
+}
+
+.secao2 div{
+    color: #321d14;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #f6f0c9;
+}
+
+.secao2 div p{
+    margin: 0px 10px;
+}
+
+
+
+/* seção 3 */
+
+
+.secao3{
+    color: #321d14;
+    padding: 60px;
+    display: flex;
+}
+
+#blocos-dobras{
+    text-align: justify;
+    margin: 0 40px
+}
+
+#imagens-dobras{
+    padding: 120px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#imagens-dobras img{
+    height: 340px;
+}
+.blocos-dobras{
+    display: flex;
+}
+
+.blocos-dobras div h3{
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.blocos-dobras img{
+    margin: auto 20px;
+    height: 160px;
+}
+
+
+/* seção 4-1 */
+
+.secao4{
+    background-color: #9e9a7e;
+}
+
+.secao4-1{
+    padding: 80px 50px;
+    padding-left: 100px;
+    background-color: #9e9a7e;
+    display: flex;
+}
+
+.secao4-1 div{
+    margin: 0px 90px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secao4-1 div h2{
+    margin: 30px 90px 20px;
+    font-size: 40px;
+    color: rgb(44, 44, 44);
+}
+
+.secao4-1 div p{
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(44, 44, 44, 0.7);
+}
+
+.secao4-1 img{
+    margin: 0 60px;
+    height: 340px;
+}
+
+
+/* seção 4-2 */
+
+.linha2{
+    display: block;
+    margin: auto;
+    background-color: #321d14;
+    height: 1px;
+    width: 1300px;
+}
+
+.secao4-2{
+    padding: 80px 210px;
+    background-color: #9e9a7e;
+    justify-content: space-between;
+    display: flex;
+    color: #321d14;
+}
+
+.subdobras{
+    width: 240px;
+    background-color: #f6f0c9;
+    border: #321d14 solid 3px;
+    border-radius: 20px;
+}
+
+.subdobras h3{
+    font-size: 20px;
+    margin: 20px 20px 0;
+    text-align: center;
+}
+
+.subdobras ul{
+    margin: 20px 15px 25px 0;
+}
+
+.subdobras li{
+    font-size: 20px;
+    color: #321d14;
+}
