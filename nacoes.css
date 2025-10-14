@@ -39,7 +39,7 @@
 
 .secao3{
     background-color: #9e9a7e;
-    padding: 40px 130px 100px;
+    padding: 60px 130px;
 }
 
 .lugares{
@@ -58,7 +58,7 @@
 }
 
 .lugares img{
-    margin: 30px 0 0 ;
+    margin: 10px 0;
     border-radius: 30px;
     height: 350px;
 }
