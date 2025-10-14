@@ -1,16 +1,16 @@
 #secao1{
     font-size: 21px;
-    padding: 70px;
+    padding: 50px 70px;
     color: #321d14;
 }
 
 #secao1 div{
     display: flex;
-
 }
 
 #bloco-texto{
-    margin-right: 50px;
+    margin-top: 20px;
+    margin-right: 40px;
     text-align: justify;
     flex-direction: column;
 }
@@ -21,12 +21,15 @@
 }
 
 #secao1 img{
-    height: 280px;
+    height: 300px;
     margin-right: 40px;
     margin-top: 20px;
 }
 
-
+#text{
+    text-align: justify;
+    margin: 50px 70px 0 50px;
+}
 
 /* seção 2*/
 
