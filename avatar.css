@@ -58,15 +58,34 @@
 
 #secao3{
     font-size: 21px;
-    padding: 70px;
+    padding: 50px 90px;
     color: #321d14;
 }
 
-#secao3 div{
-    display: flex;
+#secao3 h2{
+    font-size: 40px;
+    margin: 20px 0 15px 140px;
+}
 
+#secao3 div{
+    margin: 40px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#secao3 div p{
+    margin: auto 0 auto 50px;
 }
 
 #secao3 img{
-    width: 300px;
+    border-radius: 15px;
+    width: 340px;
+}
+
+#secao3 p{
+    margin: 0 35px;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgba(158, 154, 126, 0.8);
+    border-radius: 15px;
 }
