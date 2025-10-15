@@ -1,3 +1,115 @@
-img{
-    width: 100%;
+section{
+    padding: 30px;
 }
+
+#secao1 h1{
+    margin: 0 0 20px;
+    font-size: 45px;
+    color: #1c2335;
+    text-align: center;
+}
+
+#secao1 img{
+    width: 1100px;
+    display: block;
+    margin: auto auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* seção 2*/
+
+#mapa-agua{
+    margin-top: 0;
+}
+.mapas{
+    margin: 50px 0px;
+    font-size: 16px;
+    color: #321d14;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    background-color: #9e9a7e;
+    border: #321d14 solid 1px;
+}
+
+.mapas h2{
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.mapas img{
+    /* transition: transform 0.4s ease; 
+    display: block; */
+    border-radius: 15px;
+    width: 500px;
+}
+
+/* .mapas img:hover{
+    transform: scale(1.05); 
+} */
+
+.mapa-texto{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    margin: 0 0 0 40px;
+}
+
+.mapa-texto p{
+    margin: 0 0;
+}
+
+.links-lugares{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blocos-lugares{
+    border:#321d14 solid 1px;
+    border-radius: 10px;
+    background-color: #bcb692;
+    margin: 0;
+    padding: 10px;
+}
+
+.blocos-lugares a{
+    color: #321d14;
+    font-size: 17px;
+}
+
+
+/* cores  */
+
+#mapa-agua .blocos-lugares:hover{
+    border:#3b455f solid 1px;
+}
+#mapa-agua .blocos-lugares:hover a{
+    color: #3b455f;
+}
+
+#mapa-ar .blocos-lugares:hover{
+    border: #d0993a solid 1px;
+}
+#mapa-ar .blocos-lugares:hover a{
+    color: #d0993a;
+}
+
+#mapa-fogo .blocos-lugares:hover{
+    border:#c22d26 solid 1px;
+}
+#mapa-fogo .blocos-lugares:hover a{
+    color: #c22d26;
+}
+
+#mapa-terra .blocos-lugares:hover{
+    border:#7f9142 solid 1px;
+}
+#mapa-terra .blocos-lugares:hover a{
+    color: #7f9142;
+}
+
