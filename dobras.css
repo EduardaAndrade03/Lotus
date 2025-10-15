@@ -154,7 +154,7 @@
 .subdobras{
     width: 240px;
     background-color: #f6f0c9;
-    border: #321d14 solid 3px;
+    border: #321d14 solid 2px;
     border-radius: 20px;
 }
 
@@ -171,4 +171,27 @@
 .subdobras li{
     font-size: 20px;
     color: #321d14;
+}
+
+
+/* seção 5 */
+
+
+.secao5{
+    color: #4b4835;
+    padding: 100px 200px;
+    display: flex;
+    background-color: #bcb692;
+    text-align: justify;
+}
+
+.secao5 p{
+    margin: 10px 0;
+}
+
+.secao5 video{
+    display: block;
+    border-radius: 20px;
+    margin: auto 50px 0 0;
+    height: 300px;
 }
