@@ -117,13 +117,17 @@
 
 .bloco-nações:hover{
     opacity: 1;
-    /* background-color: #bcb692; */
 }
-
-/* .bloco-nações:hover img{
-} */
 
 .bloco-nações:hover p{
     color: #f6f0c9;
 
+}
+
+.bottons-nações{
+    transition: transform 0.6s;
+}
+
+.bottons-nações:hover{
+    transform: translateY(-10px);
 }
