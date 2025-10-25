@@ -20,11 +20,18 @@ section{
 
 /* seção 2*/
 
+#secao2{
+    padding: 20px 90px;
+}
+
 #mapa-agua{
     margin-top: 0;
 }
 .mapas{
-    margin: 50px 0px;
+    transition: transform 0.4s ease; 
+    display: block;
+
+    margin: 80px 30px;
     font-size: 16px;
     color: #321d14;
     text-align: justify;
@@ -35,6 +42,11 @@ section{
     border: #321d14 solid 1px;
 }
 
+.mapas:hover{
+    transform: scale(1.01); 
+
+}
+
 .mapas h2{
     margin: 0;
     text-align: center;
@@ -42,15 +54,10 @@ section{
 }
 
 .mapas img{
-    /* transition: transform 0.4s ease; 
-    display: block; */
     border-radius: 15px;
     width: 500px;
 }
 
-/* .mapas img:hover{
-    transform: scale(1.05); 
-} */
 
 .mapa-texto{
     display: flex;
@@ -74,12 +81,13 @@ section{
     border-radius: 10px;
     background-color: #bcb692;
     margin: 0;
-    padding: 10px;
+    padding: 8px;
 }
 
-.blocos-lugares a{
+.links-lugares a{
+    text-align: center;
     color: #321d14;
-    font-size: 17px;
+    font-size: 15.5px;
 }
 
 
@@ -88,28 +96,28 @@ section{
 #mapa-agua .blocos-lugares:hover{
     border:#3b455f solid 1px;
 }
-#mapa-agua .blocos-lugares:hover a{
+#mapa-agua .blocos-lugares:hover{
     color: #3b455f;
 }
 
 #mapa-ar .blocos-lugares:hover{
-    border: #d0993a solid 1px;
+    border: #8a631f solid 1px;
 }
-#mapa-ar .blocos-lugares:hover a{
-    color: #d0993a;
+#mapa-ar .blocos-lugares:hover{
+    color: #8a631f;
 }
 
 #mapa-fogo .blocos-lugares:hover{
     border:#c22d26 solid 1px;
 }
-#mapa-fogo .blocos-lugares:hover a{
+#mapa-fogo .blocos-lugares:hover{
     color: #c22d26;
 }
 
 #mapa-terra .blocos-lugares:hover{
     border:#7f9142 solid 1px;
 }
-#mapa-terra .blocos-lugares:hover a{
+#mapa-terra .blocos-lugares:hover{
     color: #7f9142;
 }
 
