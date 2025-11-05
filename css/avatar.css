@@ -92,3 +92,64 @@
     background-color: rgba(158, 154, 126, 0.8);
     border-radius: 15px;
 }
+
+
+/* secao 4 */
+
+#secao4{
+    background-color: #e7e1bc;
+    padding: 20px;
+}
+
+#secao4 h2{
+    margin: 50px;
+    color: #2c2c2c;
+    font-size: 38px;
+    text-align: center;
+}
+
+#avatares{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.avatares{
+    border: #c5bf9f solid 2px;
+    text-align: justify;
+    color: #321d14;
+    /* border-radius: 10px; */
+    /* background-color: #c5bf9f; */
+    padding: 15px 20px;
+    margin: 10px;
+    width: 300px;
+    /* height: 670px; */
+}
+
+.avatares p{
+    margin: 20px 0;
+}
+
+.avatares h3{
+    color: #321d14;
+    font-size: 23px;
+    margin: 0px 0 15px;
+    text-align: center;
+}
+
+.avatares img{
+    border: #9e9a7e solid 1px;
+    /* border-radius: 7px; */
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* 
+transição dropdown
+fontes
+avatar blocos
+javascript(sorteio)
+mapa */
