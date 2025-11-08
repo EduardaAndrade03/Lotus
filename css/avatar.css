@@ -97,14 +97,15 @@
 /* secao 4 */
 
 #secao4{
-    background-color: #e7e1bc;
+    background-color: #c5bf9f;
     padding: 20px;
+    padding-bottom: 100px ;
 }
 
 #secao4 h2{
-    margin: 50px;
-    color: #2c2c2c;
-    font-size: 38px;
+    margin: 70px 50px 50px;
+    color: #321d14;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -118,22 +119,22 @@
     border: #c5bf9f solid 2px;
     text-align: justify;
     color: #321d14;
-    /* border-radius: 10px; */
-    /* background-color: #c5bf9f; */
+    border-radius: 10px;
+    background-color: #e7e1bc;
     padding: 15px 20px;
     margin: 10px;
-    width: 300px;
+    width: 400px;
     /* height: 670px; */
 }
 
 .avatares p{
-    margin: 20px 0;
+    margin: auto 20px 30px;
 }
 
 .avatares h3{
     color: #321d14;
-    font-size: 23px;
-    margin: 0px 0 15px;
+    font-size: 30px;
+    margin: 0px 0;
     text-align: center;
 }
 
@@ -142,7 +143,7 @@
     /* border-radius: 7px; */
     width: 280px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto 30px;
 }
 
 
