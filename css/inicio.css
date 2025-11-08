@@ -131,15 +131,3 @@
 .bottons-nações:hover{
     transform: translateY(-10px);
 }
-
-
-
-.curiosidade {
-  font-size: 22px;
-  color: #321d14;
-  text-align: center;
-  margin-top: 30px;
-  font-style: italic;
-  opacity: 0.8;
-  transition: opacity 0.5s ease;
-}
