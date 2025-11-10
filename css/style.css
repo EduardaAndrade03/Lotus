@@ -12,29 +12,26 @@ body{
 /* navbar */
 
 header{
+    font-family: 'Cinzel Decorative';
     background-color: #9e9a7e;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 45px;
+    padding: 0 45px;
+    height: 6em;
     
 }
 
 li, a{
-    font-size: 25px;
+    font-size: 1.25em;
     text-decoration: none;
     color: #fff
 }
 
 .LOGOTIPO{
     color: #fff;
-    font-size: 30px;
+    font-size: 2em;
 }
-
-/* 
-.nav_links{
-    list-style: none;
-} */
 
 .nav_links li{
     list-style: none;
@@ -48,11 +45,22 @@ li, a{
 
 .dropdown-menu{
     position: absolute;
-    display: none;
+    /* display: none; */
     margin-top: 5px;
+    margin-top: 5px;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
 }
 
 .dropdown-menu a {
+    text-align: center;
+    font-size: 1.15em;
     border: #67604e solid 2px;
     background-color: #b4aa8a;
     padding: 20px 20px;
@@ -66,5 +74,9 @@ li, a{
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  /* display: block; */
+    visibility: visible;
+    max-height: 500px;
+    transform: translateY(0);
+    opacity: 1;
 }
