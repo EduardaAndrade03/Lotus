@@ -45,7 +45,7 @@ li, a{
 
 .dropdown-menu{
     position: absolute;
-    /* display: none; */
+    z-index: 1;
     margin-top: 5px;
     margin-top: 5px;
 
@@ -74,7 +74,6 @@ li, a{
 }
 
 .dropdown:hover .dropdown-menu {
-  /* display: block; */
     visibility: visible;
     max-height: 500px;
     transform: translateY(0);

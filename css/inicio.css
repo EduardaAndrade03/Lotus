@@ -7,6 +7,9 @@
 
 /* seção 1 */
 
+.secao1{
+    position: relative;
+}
 
 .fundo{
     height: 550px;
@@ -15,11 +18,18 @@
     border-radius: 30px;
 }
 
+
 .mensagem{
+    margin-top: -1.4em;
+    position: absolute;
     font-family: 'Cinzel Decorative';
-    font-size: 40px;
-    color: #321d14;
+    font-size: 3em;
+    color: #fff;
     text-align: center;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 .texto{
