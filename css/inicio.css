@@ -83,15 +83,17 @@
 
 
 .secao3{
-    height: 330px;
-    padding: 50px 200px 300px;
+    height: 20.6em;
+    padding: 3.1em 12.5em 18.7em;
 }
 
 .secao3 h2{
+    font-weight: bold;
+    font-family: 'Cinzel Decorative';
     color: #321d14;
     text-align: center;
-    font-size: 60px;
-    margin: 40px 0 55px;
+    font-size: 3.7em;
+    margin: 1em 0 55px;
 }
 
 .nações-pai{
@@ -108,7 +110,8 @@
 }
 
 .bloco-nações p{
-    font-size: 26px;
+    font-family: 'Lora';
+    font-size: 1.2em;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -117,6 +120,23 @@
 .bloco-nações img{
     height: 170px;
     border-radius: 31px;
+}
+
+.bloco-nações:hover{
+    opacity: 1;
+}
+
+.bloco-nações:hover p{
+    color: #f6f0c9;
+    font-weight: bold;
+}
+
+.bottons-nações{
+    transition: transform 0.6s;
+}
+
+.bottons-nações:hover{
+    transform: translateY(-10px);
 }
 
 .link-mapa{
@@ -130,25 +150,9 @@
     color: #321d14;
     text-align: center;
     font-weight: bold;
+    font-family: 'Lora';
 }
 
 .link-mapa a:hover{
     text-decoration: underline;
-}
-
-.bloco-nações:hover{
-    opacity: 1;
-}
-
-.bloco-nações:hover p{
-    color: #f6f0c9;
-
-}
-
-.bottons-nações{
-    transition: transform 0.6s;
-}
-
-.bottons-nações:hover{
-    transform: translateY(-10px);
 }
