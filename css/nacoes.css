@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;400&display=swap');
 
 /* seção 2 */
 
 
 .secao2{
-    margin: 130px 120px 90px;
-
+    margin: 90px 120px 90px;
 }
 
 .lados{
+    width: 585px;
+    font-family: 'Lora';
     display: flex;
     text-align: justify;
-    font-size: 21px;
+    font-size: 1.16em;
     color: #321d14;
 }
 
 .lados p{
+    width: 585px;
     margin: 0 0 30px;
 }
 
@@ -27,12 +31,11 @@
 }
 
 #lado-direito img{
+    width: 585px;
     display: block;
     border-radius: 30px;
-    width: 585px;
     margin: 0 auto 30px;
 }
-
 
 
 /* seção 3 */
@@ -48,13 +51,14 @@
 
 .lugares p{
     color: #321d14;
-    font-size: 20px;
+    font-size: 1.1rem;
     text-align: justify
 }
 .lugares h2{
     text-align: center;
-    font-size: 34px;
-    color: white;
+    font-family: 'Cinzel Decorative';
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
 }
 
 .lugares img{
