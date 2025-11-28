@@ -1,5 +1,5 @@
 #secao1{
-    font-size: 21px;
+    font-size: 1.1rem;
     padding: 50px 70px;
     color: #321d14;
 }
@@ -16,17 +16,17 @@
 }
 
 #bloco-texto h1{
+    font-family: 'Cinzel Decorative';
     margin: 0;
     margin-left: 70px;
 }
 
 #secao1 img{
     height: 300px;
-    margin-right: 40px;
-    margin-top: 20px;
 }
 
 #text{
+    font-size: 1.06rem;
     text-align: justify;
     margin: 50px 70px 0 50px;
 }
@@ -43,6 +43,7 @@
 }
 
 #secao2 div{
+    font-size: 1.07rem;
     border-radius: 5px 0 0 5px;
     padding: 5px 30px 10px 60px;
     margin-right: 0;
@@ -50,7 +51,9 @@
 }
 
 #secao2 div h2{
-    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'Cinzel Decorative';
+    font-size: 2.1rem;
     text-align: end;
     margin-right: 200px;
 }
@@ -66,11 +69,13 @@
 }
 
 #secao3 h2{
-    font-size: 40px;
+    font-family: 'Cinzel Decorative';
+    font-size: 2.3rem;
     margin: 20px 0 15px 140px;
 }
 
 #secao3 div{
+    font-size: 1.1rem;
     margin: 40px 60px;
     display: flex;
     justify-content: space-around;
@@ -82,10 +87,11 @@
 
 #secao3 img{
     border-radius: 15px;
-    width: 340px;
+    width: 320px;
 }
 
 #secao3 p{
+    font-size: 1.11rem;
     margin: 0 35px;
     text-align: justify;
     padding: 15px;
@@ -99,13 +105,14 @@
 #secao4{
     background-color: #c5bf9f;
     padding: 20px;
-    padding-bottom: 100px ;
+    padding-bottom: 60px ;
 }
 
 #secao4 h2{
-    margin: 70px 50px 50px;
+    font-family: 'Cinzel Decorative';
+    margin: 40px 50px 30px;
     color: #321d14;
-    font-size: 45px;
+    font-size: 2.4rem;
     text-align: center;
 }
 
@@ -124,34 +131,32 @@
     padding: 15px 20px;
     margin: 10px;
     width: 400px;
-    /* height: 670px; */
 }
 
 .avatares p{
     margin: auto 20px 30px;
+    font-size: 1rem;
 }
 
 .avatares h3{
+    font-family: 'Cinzel Decorative';
     color: #321d14;
-    font-size: 30px;
-    margin: 0px 0;
+    font-size: 2rem;
+    margin: 3px 0 ;
     text-align: center;
 }
 
 .avatares img{
     border: #9e9a7e solid 1px;
-    /* border-radius: 7px; */
+    border-radius: 7px;
     width: 280px;
     display: block;
-    margin: 20px auto 30px;
+    margin: 10px auto 30px;
 }
 
 
 
 /* 
-transição dropdown
-fontes
-avatar blocos
 javascript(sorteio)
-mapa 
+mapa
 melhorar navbar*/
