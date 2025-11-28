@@ -5,30 +5,33 @@
 
 .secao1 img{
     margin: 0 0 0 70px;
-    height: 390px;
+    height: 21.2rem;
+    border-radius: 10px;
 }
 
 .secao1 div{
-    margin: 30px 50px;
+    display: block;
+    margin: auto 50px;
 }
 
 .secao1 div h1{
+    margin: 7px 0;
+    font-family: 'Cinzel Decorative';
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
     color: #321d14;
 }
 
 .secao1 div p{
-    font-size: 23px;
+    margin: 10px 0 0;
+    font-size: 1.2rem;
     text-align: justify;
     color: #321d14;
 }
 
 
-
 /* seção 2 */
-
 
 .secao2{
     background-color: #9e9a7e;
@@ -39,7 +42,7 @@
 .secao2 div{
     color: #321d14;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1rem;
     border-radius: 16px;
     padding: 20px;
     background-color: #f6f0c9;
@@ -50,13 +53,12 @@
 }
 
 
-
 /* seção 3 */
-
 
 .secao3{
     color: #321d14;
-    padding: 60px;
+    padding: 50px 60px 70px;
+    padding-left: 30px;
     display: flex;
 }
 
@@ -66,7 +68,7 @@
 }
 
 #imagens-dobras{
-    padding: 120px 40px;
+    padding: 12rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -80,14 +82,20 @@
 }
 
 .blocos-dobras div h3{
+    font-family: 'Cinzel Decorative';
     color: #321d14;
-    font-size: 28px;
+    font-size: 1.6rem;
     margin-left: 50px;
     margin-bottom: 0;
 }
 
+.blocos-dobras div p{
+    margin-top: 7px;
+    font-size: 0.94rem;
+}
+
 .blocos-dobras img{
-    margin: auto 20px;
+    margin: 60px 20px;
     height: 160px;
 }
 
@@ -113,14 +121,16 @@
 }
 
 .secao4-1 div h2{
-    margin: 30px 90px 20px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative';
+    margin: 30px 90px 0px;
     font-size: 40px;
     color: rgb(44, 44, 44);
 }
 
 .secao4-1 div p{
     text-align: justify;
-    font-size: 22px;
+    font-size: 1.1rem;
     color: white;
     border-radius: 10px;
     padding: 15px;
@@ -135,12 +145,13 @@
 
 /* seção 4-2 */
 
-.linha2{
+hr{
+    background-color: #321d14;
     display: block;
     margin: auto;
-    background-color: #321d14;
-    height: 1px;
     width: 1300px;
+    height: 1px;
+    border: none;
 }
 
 .secao4-2{
@@ -153,23 +164,24 @@
 
 .subdobras{
     width: 240px;
-    background-color: #f6f0c9;
+    background-color: rgba(246, 240, 201, 0.86);
     border: #321d14 solid 2px;
     border-radius: 20px;
 }
 
 .subdobras h3{
-    font-size: 20px;
+    font-family: 'Cinzel Decorative';
+    font-size: 1.2rem;
     margin: 20px 20px 0;
     text-align: center;
 }
 
 .subdobras ul{
-    margin: 20px 15px 25px 0;
+    margin: 15px 10px 25px -7px;
 }
 
 .subdobras li{
-    font-size: 20px;
+    font-size: 1.138rem;
     color: #321d14;
 }
 
