@@ -241,3 +241,7 @@ hr{
     opacity: 0.8;
     color: black;
 }
+
+#botao-dobras:active{
+    transform: scale(0.97);
+}

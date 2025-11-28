@@ -1,6 +1,6 @@
 const dobras = [
     'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra',     'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra', 'Sem Dobra',
-    'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água',  
+    'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água', 'Água',
     'Fogo', 'Fogo','Fogo','Fogo','Fogo','Fogo','Fogo','Fogo','Fogo','Fogo','Fogo','Fogo',
     'Terra', 'Terra','Terra','Terra','Terra','Terra','Terra','Terra','Terra','Terra','Terra','Terra',
     'Ar', 'Ar','Ar','Ar','Ar','Ar','Ar','Ar','Ar','Ar','Ar','Ar',
