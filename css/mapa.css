@@ -1,16 +1,18 @@
 section{
-    padding: 30px;
+    padding: 60px 30px;
 }
 
 #secao1 h1{
-    margin: 0 0 20px;
+    font-family: 'Cinzel Decorative';
+    font-weight: bold;
+    margin: 0 0 30px;
     font-size: 50px;
     color: #1c2335;
     text-align: center;
 }
 
 #secao1 img{
-    width: 1400px;
+    width: 1300px;
     display: block;
     margin: auto auto;
     height: auto;
@@ -28,36 +30,28 @@ section{
     margin-top: 0;
 }
 .mapas{
-    transition: transform 0.4s ease; 
-    display: block;
-
-    margin: 80px 30px;
-    font-size: 16px;
+    margin: 20px 30px;
     color: #321d14;
     text-align: justify;
     border-radius: 15px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     background-color: #9e9a7e;
     border: #321d14 solid 1px;
-}
-
-.mapas:hover{
-    transform: scale(1.01); 
-
+    height: 18rem;
 }
 
 .mapas h2{
+    font-family: 'Cinzel Decorative';
     margin: 0;
     text-align: center;
-    font-size: 35px;
+    font-size: 2.08rem;
 }
 
 .mapas img{
     border-radius: 15px;
     width: 500px;
 }
-
 
 .mapa-texto{
     display: flex;
@@ -67,6 +61,7 @@ section{
 }
 
 .mapa-texto p{
+    font-size: 0.9rem;
     margin: 0 0;
 }
 
