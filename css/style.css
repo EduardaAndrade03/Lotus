@@ -46,7 +46,7 @@ li, a{
 
 .dropdown-menu{
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     margin-top: 5px;
     margin-top: 5px;
 

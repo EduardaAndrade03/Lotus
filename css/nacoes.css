@@ -9,12 +9,21 @@
 }
 
 .lados{
-    width: 585px;
     font-family: 'Lora';
     display: flex;
     text-align: justify;
     font-size: 1.16em;
     color: #321d14;
+}
+
+.lados a{
+    font-family: 'Lora';
+    color: #321d14;
+    font-size: 1em;
+}
+
+.lados a:hover{
+    color: #9e9a7e;
 }
 
 .lados p{
@@ -68,5 +77,5 @@
 }
 
 .bloco-texto{
-    margin: auto 50px ;
+    margin: auto 45px ;
 }

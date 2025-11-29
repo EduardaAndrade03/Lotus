@@ -147,9 +147,9 @@
 
 hr{
     background-color: #321d14;
-    display: block;
-    margin: auto;
-    width: 1300px;
+    display: flex;
+    margin: 0 10rem;
+    justify-content: center;
     height: 1px;
     border: none;
 }
@@ -192,7 +192,8 @@ hr{
     background-color: #bcb692;
     position: relative;
     overflow: hidden; 
-    height: 90vh; 
+    height: 90vh;
+    margin: 1px 0 20px;
 }
 
 #bg-video {
@@ -233,7 +234,6 @@ hr{
     font-size: 1rem;
     border-radius: 12px;
     border: none;
-    letter-spacing: 1px;
     font-weight: bold;
 }
 #botao-dobras:disabled{
